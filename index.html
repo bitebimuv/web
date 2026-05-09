@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bir Tebessüm Bin Mutluluk Derneği</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f9fbff;
+        --card: #ffffff;
+        --text: #1f2a44;
+        --accent: #2f80ed;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.5;
+      }
+
+      header {
+        padding: 2rem 1rem;
+        text-align: center;
+      }
+
+      main {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 1rem 2rem;
+      }
+
+      h1 {
+        margin-bottom: 0.5rem;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1rem;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid #dce6f7;
+        border-radius: 12px;
+        padding: 1rem;
+      }
+
+      .card h2 {
+        color: var(--accent);
+        margin-top: 0;
+        font-size: 1.1rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 1rem;
+        color: #4f5d75;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Bir Tebessüm Bin Mutluluk Derneği</h1>
+      <p>
+        Derneğimizin sürdürülebilir ve başarılı yapısı için temel yönetim ve katılım
+        alanları aşağıda sunulmuştur.
+      </p>
+    </header>
+    <main>
+      <section class="grid" aria-label="Dernek özellikleri">
+        <article class="card">
+          <h2>Üye Yönetimi</h2>
+          <p>Üye kayıt, durum takibi, iletişim ve üyelik süreçlerinin yönetimi.</p>
+        </article>
+        <article class="card">
+          <h2>Gönüllü Yönetimi</h2>
+          <p>Gönüllü başvuru, görev dağılımı, katılım takibi ve eğitim planlaması.</p>
+        </article>
+        <article class="card">
+          <h2>Yönetim</h2>
+          <p>Yönetim kurulu kararları, görev atamaları ve stratejik planlama süreçleri.</p>
+        </article>
+        <article class="card">
+          <h2>Genel Kurul</h2>
+          <p>Genel kurul tarihleri, gündem, karar kayıtları ve doküman arşivi.</p>
+        </article>
+        <article class="card">
+          <h2>Faaliyetler</h2>
+          <p>Proje ve etkinlik planlama, duyuru, takvim ve sonuç raporlaması.</p>
+        </article>
+        <article class="card">
+          <h2>Başarı için Temel Özellikler</h2>
+          <p>Şeffaflık, iletişim, raporlama, sürdürülebilirlik ve topluluk katılımı.</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      Bir Tebessüm Bin Mutluluk Derneği · Topluma değer katan dayanışma modeli
+    </footer>
+  </body>
+</html>
